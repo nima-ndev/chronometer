@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding-top: 4rem;
+    background-color: rgb(44, 44, 44);
+}
+.control{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    padding: .6rem 1.1rem;
+    background-color: orange;
+    border: 1px solid orange;
+    color: white;
+}
+.start-btn{
+    border-radius: 1.5rem 0 0 1.5rem;
+}
+.reSet-btn{
+    padding: .6rem 35rem 0.6rem 1.1rem;
+}
+
+.number{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 50px;
+}
+.number span{
+    display: inline-block;
+    width: 30px;
+    height: 15px;
+    color: orange;
+    text-align: center;
+    vertical-align: middle;
+
+}
+.number span *{
+    display: inline-block;
+    width: 5px;
+}
+
+.minute{
+    /* animation: intro 1s; */
+}
+.points{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    color: white;
+    margin-top: 50px;
+}
